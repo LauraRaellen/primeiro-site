@@ -1,0 +1,121 @@
+
+
+
+* { 
+   margin: 0;
+   padding: 0;
+   list-style: none;
+    text-decoration: none;
+   
+}
+    
+/*
+tipos de format
+-opentype(otf)
+-truetype(ttf)
+-embedded-opentype
+-truetype-aat
+-svg
+
+
+
+/*
+
+
+
+:root{
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+
+body{
+   width: 100%;
+    background-image: linear-gradient(to top,#FF8C64,#FFF587);
+    background-repeat: no-repeat; 
+   
+/*  
+medidas absolutas
+    cm=centimetro,mm=milimetro,in=polegadas,px,pt=ponto,pc=paika
+
+medidas relativas
+    em=autura "M",ex=autura "X",rem=rute,vw,
+*/
+
+
+
+h1{
+    color:#ff5649 ;
+    text-align: center ;
+    text-shadow: 1px 1px 2px rgb(199, 74, 32);
+  
+  }
+h2{
+    color: #7D6B7D;
+    text-align: center ;
+    text-shadow: 1px 1px 2px #6b566b;
+}
+p{
+    text-align: justify;
+    
+}
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 8px 10px 15px #6254628f;
+  
+}
+.negrito{
+    font-weight:900 ;
+    text-decoration: underline;
+}
+.caixa-img{
+   width: 100%;
+   text-align: center; 
+}
+
+img{
+    width: 300px;  
+}
+body{
+    background-image: linear-gradient(to top, #FF8C64, #FFF587);
+}
+ #pricipal{
+     text-align: center;
+     color: #F29F05;
+     text-shadow: 1px 1px 3px #a86d00b6;
+     background-color: #fb8a6596;
+ }
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+background-color: #fffc64;
+}
+#mudar:hover {
+   color: red; 
+}
+#mudar > p{
+    display: none;
+}
+#mudar:hover > p{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
